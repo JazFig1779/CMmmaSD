@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Berkshire County Martial Arts Academy</title>
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="index.js"></script>
+    <link rel="stylesheet" type="text/css" href="style1.css"/>
+
+  </head>
+  <body style="background-color:#D7DBDD;">
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="adult.html">Brazilian Jiu Jitsu</a>
+      <a href="child.html">Children Program & Anti- Bullying</a>
+      <a href="instructor.html">Instructors</a>
+      <a href="sp.html">Schedule & Pricing</a>
+      <a href="tryout.html">Try out</a>
+    </div>
+
+  <div class="jumbotron">
+    <div class="row">
+      <div class="col-md-12" id="back">
+          <a href="index.html"><img alt="Logo" class="logo" src="name.jpg"></a>
+      </div>
+    </div>
+    <div class="inc">Manley Bros Jiu Jitsu</div>
+  </div>
+
+      <div class="col-md-1"<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span></div>
+      <div class="container" style="background-color: grey;">
+        <h2>Want to know more or try out?</h2>
+        <div class ="col-md-6">
+          <form action="tryout.php">
+              <fieldset>
+                <title> Try out a class </title>
+                  <form  action="" method="POST" enctype="multipart/form-data">
+                  <p><label class "field" for="name">Your Name (required)</label></p>
+                  <input type="text" name="name"><br>
+                  <p><label class "field" for="email">Your Email (required)</label></p>
+                  <input type="text" name="email"><br>
+                  <p><label class "field" for="subject">Subject (required)</label></p>
+                  <input type="text" name="subject"><br>
+                  <p><label class "field" for="message">Your Message (required)</label></p>
+                  <textarea type="text" name="message" style="width:300px; height:100px"></textarea><br>
+                  <p><input type="submit" value="Submit"></p>
+              </fieldset>
+            </form>
+
+              <p>I will return your message as soon as possible</p>
+        </div>
+        <div class ="col-md-4">
+          <img alt="Instructor" class="intruct" src="cover.jpg" style="width:400px"; "height: 250px">
+        </div>
+  </div>
+  </body>
+</html>
